@@ -1,7 +1,7 @@
 
 .topnav {
     margin: auto;
-    background-color: blue;
+    background-color: darkblue;
     overflow: auto;
 }
 
@@ -17,7 +17,7 @@
 }
 
 .topnav a.hover, .active {
-    background-color: darkblue;
+    background-color: blue;
 }
 
 .topnav .icon {
