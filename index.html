@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+     <title> Final Project</title>
+  <meta charset="utf-8" />
+  <meta name="robots" content="noindex,nofollow" />
+  <meta name="viewport" content="width=device-width" />
+  <link rel="stylesheet" href="css/portal.css" />
+  <link rel="stylesheet" href="css/nav.css" />
+  <link rel="stylesheet" href="css/forms.css" />
+ </head>
+ <body>
+     <header>
+     <h1>IT 116 Final Project</h1>
+        <nav class="topnav" id="myTopnav">
+            <a href="index.html" class="active">Home</a>
+            <a href="kenton.html" target="_blank">Kenton Williams</a>
+            <a href="oswal.html" target="_blank">Oswal (Ozzy) Gonzalez</a>
+            <a href="sabrena.html" target="_blank">Sabrena Beraki</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+        </nav>
+     </header>
+     
+   <main class="wrapper">
+        <picture class="profile">
+            <source media="(min-width: 1200px)" srcset="images/code.jpg">
+            <source media="(min-width: 501px)" srcset="images/code.jpg">
+            <img src="images/code.jpg" alt="Coding" />
+        </picture>   
+       <h2 class="subheader">Introduction to the team</h2>
+       
+       <p>Hello, we would like to introduce ourselves with our names, a short biogarphy, as well as links to find us.</p>
+
+       <table>
+         <tr>
+         <th>Role</th>
+         <th>Name</th>
+         <th>Profile</th>
+      
+         </tr>
+         <tr>
+           <td>Project Manager</td>
+           <td>Kenton Williams</td>
+           <td><a href="kenton.html">Kenton's Profile</a></td>
+         </tr>
+         <tr>
+           <td>Team Member</td>
+           <td>Oswal (Ozzy) Gonzalez</td>
+           <td><a href="oswal.html">Oswal's Profile</a></td>
+         </tr>
+         <tr>
+           <td>Team Member</td>
+           <td>Sabrena Beraki</td>
+           <td><a href="sabrena.html">Sabrena's Profile</a></td>
+         </tr>
+        </table>
+
+       
+
+       
+     
+     <footer>
+      <p><small>&copy; 2021 by <a href="contact.php">Contact (Your Name Here) </a>, All Rights Reserved ~ </small></p>
+    </footer>
+  </main>
+     
+     
+  <script>
+    function myFunction() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+            x.className += " responsive";
+        } else {
+            x.className = "topnav";
+        }
+    }   
+  </script>
+     
+ </body>
+</html>
